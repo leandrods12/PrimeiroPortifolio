@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,100&display=swap');@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(18, 17, 23);
+}
+.fundo{
+    width: 100%;
+    height: 260px;
+    background-image: url(../Imagens/mohammad-rahmani-oXlXu2qukGE-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    background
+}
+.container{
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+.container img#perfil{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255, 0.015);
+    backdrop-filter: blur(20px);
+    margin-top: 30px;
+    float: left;
+    
+}
+.container .cabecalho{
+    border-radius: 15px;
+    background-color: rgb(0,0, 0, 0.4);
+    backdrop-filter: blur(10px);
+    float: left;
+    margin: 30px 20px;
+    width: 560px;
+    height: 200px;
+    text-align: center;
+    
+}
+.container .cabecalho h1{
+    color: white;
+    font-family: lato,sans-serif;
+
+}
+.container .cabecalho ul.contato{
+    list-style: none;
+    float: inherit;
+    background-color: black;
+    border-radius: 15px;
+    height: 50px;
+    width: 450px;
+    margin: 20px 50px;
+
+}
+.container .cabecalho ul.contato li{
+    float: left;
+    margin: 5px 15px;
+}
+.container .cabecalho ul.contato li img{
+    width: 30px;
+    height: 30px;
+    margin: 5px 5px;
+    float: left;
+}
+.container .cabecalho ul.contato li a{
+    text-decoration: none;
+    color: white;
+    float: left;
+    font-family: lato, sans-serif;
+    line-height:40px;
+    font-size: 20px
+}
+.container .cabecalho p{
+    font-family: lato, sans-serif;
+    color: white;
+}
+.container h2{
+    font-family: lato, sans-serif;
+    color: white;
+}
+.container .projeto_container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+}
+.projeto_container{
+    border: 2px solid black;
+    border-radius: 15px;
+}
+.container .projeto_container .projeto{
+    width: 150px;
+    height:150px;
+    border-radius: 100%;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0,0, 0, 0.4);
+    background-image: url('../Imagens/tecblog.png');
+    backdrop-filter: blur(20px);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.container .projeto_container .text{
+    width: 40%;
+    letter-spacing: 1px;
+    font-family: lato, sans-serif;
+    color: white;
+
+}
+.container .projeto_container .projeto .view_projeto{
+    background-color: rgb(0,0, 0, 0.4);
+    width: 100%;
+    height:100%;
+    border-radius: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.container .projeto_container .projeto .view_projeto h2,.container .projeto_container .projeto .view_projeto p{
+    font-family: lato,sans-serif;
+    color: white;
+
+}
+.container .projeto_container a{
+    text-decoration: none;
+    font-family: lato,sans-serif;
+    color: white;
+}
+.container h1#projetos{
+margin: 20px 0;
+font-family: lato, sans-serif;
+color: white;
+}
+
